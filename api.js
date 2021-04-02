@@ -4,8 +4,6 @@ var employeeCounter = 0;
 $( document ).ready(function() {  
   loadTable(); 
   loadEmployees();
-  addEmployee();
-  deleteEmployee();
 });
 
 // Data will be loaded through loadEmployees()
